@@ -1,7 +1,9 @@
 Shutdown
 ===
 
-Shutdown utility with named configurations
+> CLI wrapper for windows shutdown command 
+> with named configurations and better input than the builtin one
+
 by Kanjiu Akuma
 
 Usage
