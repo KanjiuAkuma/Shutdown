@@ -165,15 +165,18 @@ def accept(argv: list):
 
 
 if __name__ == '__main__':
+    # tests
+    # accept('2:10 -a default'.split(' '))
+    # accept('2:30 -a default --o'.split(' '))
+    # accept('default'.split(' '))
+    # accept('--a'.split(' '))
+    # accept('-r default'.split(' '))
+    # accept('default'.split(' '))
+    # accept('1,1:1.1'.split(' '))
+    # accept('--abort'.split(' '))
+    # accept('1h 2m 30s'.split(' '))
+    # accept('--abort'.split(' '))
+    # accept('2:10 -a default'.split(' '))
+
+    # actual main
     accept(sys.argv[1:])
-    accept('2:10 -a default'.split(' '))
-    accept('2:30 -a default --o'.split(' '))
-    accept('default'.split(' '))
-    accept('--a'.split(' '))
-    accept('-r default'.split(' '))
-    accept('default'.split(' '))
-    accept('1,1:1.1'.split(' '))
-    accept('--abort'.split(' '))
-    accept('1h 2m 30s'.split(' '))
-    accept('--abort'.split(' '))
-    accept('2:10 -a default'.split(' '))
